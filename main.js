@@ -6,6 +6,10 @@
 // })
 
 
-$(".hamburger-menu ul").click( function(){
-  $(".hamburger-menu ul").addClass(".hamburger-menu.active");
-}
+$(".header-right > a ").click( function(){
+  console.log("ci sono" );
+  $(".hamburger-menu ul").addClass("hamburger-menu.active");
+  $(".hamburger-menu").show();
+
+
+});
