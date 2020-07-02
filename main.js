@@ -22,3 +22,14 @@ $(".close ").click( function(){
 
 
 });
+
+
+
+// $(".header-right > a ").click( function(){
+//   console.log("ci sono" );
+//   $(".hamburger-menu").addClass("active");
+// });
+// $(".close ").click( function(){
+//   console.log("ci sono" );
+//   $(".hamburger-menu").removeClass("active");
+// });
