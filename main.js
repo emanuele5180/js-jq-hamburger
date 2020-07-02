@@ -13,3 +13,12 @@ $(".header-right > a ").click( function(){
 
 
 });
+
+
+$(".close ").click( function(){
+  console.log("ci sono" );
+  $(".hamburger-menu ul").removeClass("hamburger-menu.active");
+  $(".hamburger-menu").hide();
+
+
+});
